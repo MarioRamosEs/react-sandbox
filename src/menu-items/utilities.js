@@ -22,9 +22,33 @@ const icons = {
 
 const utilities = {
     id: 'utilities',
-    title: 'Utilities',
+    title: 'Template',
     type: 'group',
     children: [
+        {
+            id: 'login1',
+            title: 'Login',
+            type: 'item',
+            url: '/login',
+            icon: icons.LoginOutlined,
+            target: true
+        },
+        {
+            id: 'register1',
+            title: 'Register',
+            type: 'item',
+            url: '/register',
+            icon: icons.ProfileOutlined,
+            target: true
+        },
+        {
+            id: 'dashboard',
+            title: 'Dashboard',
+            type: 'item',
+            url: '/dashboard/default',
+            icon: icons.DashboardOutlined,
+            breadcrumbs: false
+        },
         {
             id: 'util-typography',
             title: 'Typography',
@@ -53,6 +77,22 @@ const utilities = {
             url: '/icons/ant',
             icon: icons.AntDesignOutlined,
             breadcrumbs: false
+        },
+        {
+            id: 'sample-page',
+            title: 'Sample Page',
+            type: 'item',
+            url: '/sample-page',
+            icon: icons.ChromeOutlined
+        },
+        {
+            id: 'documentation',
+            title: 'Documentation',
+            type: 'item',
+            url: 'https://codedthemes.gitbook.io/mantis-react/',
+            icon: icons.QuestionOutlined,
+            external: true,
+            target: true
         }
     ]
 };

@@ -9,19 +9,11 @@ const icons = {
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
 
-const dashboard = {
+const sandbox = {
     id: 'group-dashboard',
-    title: 'Navigation',
+    title: 'Sandbox',
     type: 'group',
     children: [
-        {
-            id: 'dashboard',
-            title: 'Dashboard',
-            type: 'item',
-            url: '/dashboard/default',
-            icon: icons.DashboardOutlined,
-            breadcrumbs: false
-        },
         {
             id: 'mario-test',
             title: 'Mario Test',
@@ -32,4 +24,4 @@ const dashboard = {
     ]
 };
 
-export default dashboard;
+export default sandbox;

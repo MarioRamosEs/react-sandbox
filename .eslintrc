@@ -39,7 +39,7 @@
             {
                 "ignoreRestSiblings": false
             }
-        ],
+        ]/*,
         "prettier/prettier": [
             2,
             {
@@ -48,9 +48,9 @@
                 "singleQuote": true,
                 "trailingComma": "none",
                 "tabWidth": 4,
-                "useTabs": false,
+                "useTabs": true,
                 "endOfLine": "auto"
             }
-        ]
+        ]*/
     }
 }
