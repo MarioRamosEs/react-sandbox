@@ -5,8 +5,9 @@ import { createSlice } from '@reduxjs/toolkit';
 const initialState = {
     openItem: ['dashboard'],
     openComponent: 'buttons',
-    drawerOpen: false,
-    componentDrawerOpen: true
+    drawerOpen: true,
+    componentDrawerOpen: true,
+    username: 'Login'
 };
 
 // ==============================|| SLICE - MENU ||============================== //
@@ -29,10 +30,14 @@ const menu = createSlice({
 
         openComponentDrawer(state, action) {
             state.componentDrawerOpen = action.payload.componentDrawerOpen;
-        }
+        },
+        
+        setUsername(state, action) {
+            state.username = action.payload.username;
+        },
     }
 });
 
 export default menu.reducer;
 
-export const { activeItem, activeComponent, openDrawer, openComponentDrawer } = menu.actions;
+export const { activeItem, activeComponent, openDrawer, openComponentDrawer, setUsername } = menu.actions;

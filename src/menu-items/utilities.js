@@ -26,19 +26,11 @@ const utilities = {
     type: 'group',
     children: [
         {
-            id: 'login1',
-            title: 'Login',
-            type: 'item',
-            url: '/login',
-            icon: icons.LoginOutlined,
-            target: true
-        },
-        {
             id: 'register1',
             title: 'Register',
             type: 'item',
             url: '/register',
-            icon: icons.ProfileOutlined,
+            //icon: icons.ProfileOutlined,
             target: true
         },
         {
@@ -46,7 +38,7 @@ const utilities = {
             title: 'Dashboard',
             type: 'item',
             url: '/dashboard/default',
-            icon: icons.DashboardOutlined,
+            //icon: icons.DashboardOutlined,
             breadcrumbs: false
         },
         {
@@ -54,28 +46,28 @@ const utilities = {
             title: 'Typography',
             type: 'item',
             url: '/typography',
-            icon: icons.FontSizeOutlined
+            //icon: icons.FontSizeOutlined
         },
         {
             id: 'util-color',
             title: 'Color',
             type: 'item',
             url: '/color',
-            icon: icons.BgColorsOutlined
+            //icon: icons.BgColorsOutlined
         },
         {
             id: 'util-shadow',
             title: 'Shadow',
             type: 'item',
             url: '/shadow',
-            icon: icons.BarcodeOutlined
+            //icon: icons.BarcodeOutlined
         },
         {
             id: 'ant-icons',
             title: 'Ant Icons',
             type: 'item',
             url: '/icons/ant',
-            icon: icons.AntDesignOutlined,
+            //icon: icons.AntDesignOutlined,
             breadcrumbs: false
         },
         {
@@ -83,14 +75,14 @@ const utilities = {
             title: 'Sample Page',
             type: 'item',
             url: '/sample-page',
-            icon: icons.ChromeOutlined
+            //icon: icons.ChromeOutlined
         },
         {
             id: 'documentation',
             title: 'Documentation',
             type: 'item',
             url: 'https://codedthemes.gitbook.io/mantis-react/',
-            icon: icons.QuestionOutlined,
+            //icon: icons.QuestionOutlined,
             external: true,
             target: true
         }

@@ -6,6 +6,7 @@ import { Grid, Stack, Typography } from '@mui/material';
 // project import
 import AuthLogin from './auth-forms/AuthLogin';
 import AuthWrapper from './AuthWrapper';
+import AuthLoginJustUsername from './auth-forms/AuthLoginJustUsername';
 
 // ================================|| LOGIN ||================================ //
 
@@ -21,7 +22,7 @@ const Login = () => (
                 </Stack>
             </Grid>
             <Grid item xs={12}>
-                <AuthLogin />
+                <AuthLoginJustUsername />
             </Grid>
         </Grid>
     </AuthWrapper>

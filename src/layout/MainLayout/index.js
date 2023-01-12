@@ -23,10 +23,12 @@ const MainLayout = () => {
     const dispatch = useDispatch();
 
     const { drawerOpen } = useSelector((state) => state.menu);
+    console.log('drawerOpen', drawerOpen);
 
     // drawer toggler
     const [open, setOpen] = useState(drawerOpen);
     const handleDrawerToggle = () => {
+        console.log('handleDrawerToggle');
         setOpen(!open);
         dispatch(openDrawer({ drawerOpen: !open }));
     };

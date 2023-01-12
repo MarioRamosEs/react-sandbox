@@ -1,9 +1,9 @@
 // assets
-import { DashboardOutlined, LaptopOutlined } from '@ant-design/icons';
+import { LoginOutlined, LaptopOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
-    DashboardOutlined,
+    LoginOutlined,
     LaptopOutlined
 };
 
@@ -14,6 +14,14 @@ const sandbox = {
     title: 'Sandbox',
     type: 'group',
     children: [
+        {
+            id: 'login1',
+            title: 'Login (w/ Redux)',
+            type: 'item',
+            url: '/login',
+            icon: icons.LoginOutlined,
+            //target: true
+        },
         {
             id: 'mario-test',
             title: 'Mario Test',
