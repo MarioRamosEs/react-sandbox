@@ -5,7 +5,7 @@ import Loadable from 'components/Loadable';
 import MainLayout from '../layout/MainLayout';
 
 // render - login
-const MarioTest = Loadable(lazy(() => import('pages/mario-test/MarioTestPage')));
+const ComponentsSandbox = Loadable(lazy(() => import('pages/sandbox/ComponentsSandbox')));
 
 // ==============================|| AUTH ROUTING ||============================== //
 
@@ -14,8 +14,8 @@ const SandboxRoutes = {
 	element: <MainLayout />,
 	children: [
 		{
-			path: 'mario-test',
-			element: <MarioTest />
+			path: 'components-sandbox',
+			element: <ComponentsSandbox />
 		},
 	]
 };

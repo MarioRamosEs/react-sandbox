@@ -23,10 +23,10 @@ const sandbox = {
             //target: true
         },
         {
-            id: 'mario-test',
-            title: 'Mario Test',
+            id: 'components-sandbox',
+            title: 'Components Sandbox',
             type: 'item',
-            url: '/mario-test',
+            url: '/components-sandbox',
             icon: icons.LaptopOutlined
         }
     ]
