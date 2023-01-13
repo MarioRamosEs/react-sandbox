@@ -6,6 +6,7 @@ import MainLayout from '../layout/MainLayout';
 
 // render - login
 const ComponentsSandbox = Loadable(lazy(() => import('pages/sandbox/ComponentsSandbox')));
+const HooksSandbox = Loadable(lazy(() => import('pages/sandbox/HooksSandbox')));
 
 // ==============================|| AUTH ROUTING ||============================== //
 
@@ -16,6 +17,10 @@ const SandboxRoutes = {
 		{
 			path: 'components-sandbox',
 			element: <ComponentsSandbox />
+		},
+		{
+			path: 'hooks-sandbox',
+			element: <HooksSandbox />
 		},
 	]
 };

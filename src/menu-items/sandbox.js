@@ -28,6 +28,13 @@ const sandbox = {
             type: 'item',
             url: '/components-sandbox',
             icon: icons.LaptopOutlined
+        },
+        {
+            id: 'hooks-sandbox',
+            title: 'Hooks Sandbox',
+            type: 'item',
+            url: '/hooks-sandbox',
+            icon: icons.LaptopOutlined
         }
     ]
 };

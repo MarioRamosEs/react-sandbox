@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Typography } from '@mui/material';
 import MainCard from 'components/MainCard';
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
 
 
@@ -11,6 +11,7 @@ const ComponentsSandbox = () => {
     return (<>
         <h2>{mainMessage}</h2>
         <CustomCard title='Title' text='Text' onClickCallback={setMainMessage} />
+        <br></br>
         <CustomCard title='Title 2' text='Text 2' onClickCallback={setMainMessage} />
     </>);
 };
