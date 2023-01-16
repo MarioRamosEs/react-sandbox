@@ -1,10 +1,11 @@
 // assets
-import { LoginOutlined, LaptopOutlined } from '@ant-design/icons';
+import { LoginOutlined, LaptopOutlined, ProfileOutlined } from '@ant-design/icons';
 
 // icons
 const icons = {
     LoginOutlined,
-    LaptopOutlined
+    LaptopOutlined,
+    ProfileOutlined
 };
 
 // ==============================|| MENU ITEMS - DASHBOARD ||============================== //
@@ -16,10 +17,18 @@ const sandbox = {
     children: [
         {
             id: 'login1',
-            title: 'Login (w/ Redux)',
+            title: 'Login (Redux)',
             type: 'item',
             url: '/login',
             icon: icons.LoginOutlined,
+            //target: true
+        },
+        {
+            id: 'register1',
+            title: 'Register (Forms)',
+            type: 'item',
+            url: '/register',
+            icon: icons.ProfileOutlined,
             //target: true
         },
         {
