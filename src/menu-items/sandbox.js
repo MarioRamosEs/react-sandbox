@@ -44,7 +44,14 @@ const sandbox = {
             type: 'item',
             url: '/hooks-sandbox',
             icon: icons.LaptopOutlined
-        }
+        },
+        {
+            id: 'jss-sandbox',
+            title: 'JSS Sandbox',
+            type: 'item',
+            url: '/jss-sandbox',
+            icon: icons.LaptopOutlined
+        },
     ]
 };
 
